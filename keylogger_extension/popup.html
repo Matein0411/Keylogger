@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Academic Keylogger</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><span class="green-text">[</span> SYSTEM LOG <span class="green-text">]</span></h1>
+            <p class="tagline">_monitoring_active_</p>
+        </header>
+
+        <section class="data-summary">
+            <div class="summary-item">
+                <span class="label">Keystrokes:</span>
+                <span id="keystrokesCount" class="value">0</span>
+            </div>
+            <div class="summary-item">
+                <span class="label">Forms:</span>
+                <span id="formsCount" class="value">0</span>
+            </div>
+            <div class="summary-item">
+                <span class="label">Clicks:</span>
+                <span id="clicksCount" class="value">0</span>
+            </div>
+        </section>
+
+        <section class="controls">
+            <button id="exportData" class="btn">_EXPORT_DATA_</button>
+            <button id="clearData" class="btn btn-danger">_CLEAR_LOGS_</button>
+        </section>
+
+        <section class="status-messages">
+            <p id="statusMessage" class="status-text"></p>
+        </section>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
