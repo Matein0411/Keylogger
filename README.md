@@ -44,7 +44,6 @@ Script que se ejecuta de forma local capturando teclas, información, audio y pa
 
 - Crear una cuenta en "https://mailtrap.io/".
 - Configurar tu propio SMTP Username y SMTP password en "keylogger.py".
-- pip install
 - pip install -r requirements.txt**
 - python3 keylogger.py**
 - Cada 15 minutos (configurable) recibirás información de la computadora objetivo.
