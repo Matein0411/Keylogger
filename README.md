@@ -1,4 +1,4 @@
-# 🔑 Academic Keylogger
+# 🔑 Keylogger
 
 > **⚠️ Solo para fines educativos.** El uso no autorizado es ilegal.
 
